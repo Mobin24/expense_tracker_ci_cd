@@ -202,3 +202,4 @@ npm test
 ```
 
 Expected: 4 passing tests, 0 failures, and the shell prompt returns automatically. If you see `Connected to MongoDB` during `npm test`, check that `tests/api.test.js` imports `../src/app.js`, not `../src/server.js`. The production Docker command remains `node src/server.js`.
+# expense_tracker_ci_cd
