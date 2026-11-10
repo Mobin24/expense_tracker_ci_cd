@@ -8,7 +8,7 @@ Students will build a pipeline that runs **lint + tests**, performs **Trivy Crit
 
 > **Important:** Trivy detects known issues using its available databases and rules; a clean scan is not proof of security. HIGH/MEDIUM/LOW findings are not blocking. Scanner errors **are** blocking. A secret detection's severity behavior is scanner-defined; do not commit secrets regardless of the threshold. This training example uses Docker Hub credentials and SSH; use protected GitHub environments, least privilege and short-lived credentials where feasible.
 
-## 1 — Requirements
+## 1 — Requirements-NEED
 
 - GitHub repository containing this project (default branch **main**).
 - Docker Desktop locally, or Docker Engine + Docker Compose plugin.
